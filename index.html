@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Projeto 1</title>
+  <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="sideBar">
+    <p><span>Dev</span>challenges.io</p>
+    <div class="div-sidebar">
+      <a href="#">Typograph</a>
+      <a href="#">Grid</a>
+      <a href="#">Buttons</a>
+      <a href="#" id="a-strong">Inputs</a>
+    </div>
+  </section>
+  <main class="main">
+    <h1>Inputs</h1>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input /&gt;</p>
+        <p class="input-label">Label</p>
+        <input class="inputs" type="text" placeholder="Placeholder">
+      </div>
+      <div class="input-column">
+        <p class="input-desc desc-hover">&:hover</p>
+        <p class="input-label">Label</p>
+        <input class="inputs hover" type="text" placeholder="Placeholder">
+      </div>
+      <div class="input-column">
+        <p class="input-desc desc-hover">&:focus</p>
+        <p class="input-label label-blue">Label</p>
+        <input class="inputs focus" type="text" placeholder="Placeholder">
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input error /&gt;</p>
+        <p class="input-label label-red">Label</p>
+        <input class="inputs error" type="text" placeholder="Placeholder">
+      </div>
+      <div class="input-column">
+        <p class="input-desc desc-hover">&:hover</p>
+        <p class="input-label">Label</p>
+        <input class="inputs hover-red" type="text" placeholder="Placeholder">
+      </div>
+      <div class="input-column">
+        <p class="input-desc desc-hover">&:focus</p>
+        <p class="input-label label-red">Label</p>
+        <input class="inputs error-focus " type="text" placeholder="Placeholder">
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input error /&gt;</p>
+        <p class="input-label">Label</p>
+        <input disabled class="inputs" type="text" placeholder="Placeholder">
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input helpertext="some interesting text" /&gt;</p>
+        <p class="input-label">Label</p>
+        <input class="inputs" type="text" placeholder="Placeholder">
+        <p class="input-desc desc-gray ">Some Interesting text</p>
+      </div>
+      <div class="input-column">
+        <p class="input-desc">&lt;Input helpertext="some interesting text" error  /&gt;</p>
+        <p class="input-label label-red">Label</p>
+        <input class="inputs error-focus" type="text" placeholder="Placeholder">
+        <p class="input-desc desc-red">Some Interesting text</p>
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input startIcon /&gt;</p>
+        <p class="input-label">Label</p>
+        <div class="icon-input">
+          <i class="fa-solid fa-phone"></i>
+        <input class="inputs none" type="text" placeholder="Placeholder">
+        </div>
+      </div>
+      <div class="input-column">
+        <p class="input-desc">&lt;Input endIcon  /&gt;</p>
+        <p class="input-label ">Label</p>
+        <div class="icon-input reverse">
+          <i class="fa-solid fa-lock"></i>
+          <input class="inputs none" type="text" placeholder="Placeholder">
+        </div>
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input value="text" /&gt;</p>
+        <p class="input-label">Label</p>
+        <input class="inputs" value="text" type="text" placeholder="Placeholder">
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input size='sm'  /&gt;</p>
+        <p class="input-label">Label</p>
+        <input class="inputs sm" type="text" placeholder="Placeholder"> 
+      </div>
+      <div class="input-column">
+        <p class="input-desc">&lt;Input size='md' /&gt;</p>
+        <p class="input-label ">Label</p>
+        <input class="inputs" type="text" placeholder="Placeholder">
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input fullWidth /&gt;</p>
+        <p class="input-label">Label</p>
+        <input class="inputs large" type="text" placeholder="Placeholder"> 
+      </div>
+    </div>
+    <div class="div-inputs">
+      <div class="input-column">
+        <p class="input-desc">&lt;Input textarea rows='4'/&gt;</p>
+        <p class="input-label">Label</p>
+        <textarea  class="text-area" cols="30" rows="10" placeholder="placeholder"></textarea> 
+      </div>
+    </div>
+    <p class="footer">Developed by <span class="alecson">Alecson</span></p>
+  </main>
+  
+    
+  
+
+  <script defer src="./js/script.js"></script>
+</body>
+
+</html>
